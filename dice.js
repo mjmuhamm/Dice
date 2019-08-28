@@ -1,10 +1,10 @@
 
 
     var randomN1 = Math.round(Math.random()*5 +1);
-    var randomDice1 = "images/dice" + randomN1 + ".png";
+    var randomDice1 = "dice" + randomN1 + ".png";
 
     var randomN2 = Math.round(Math.random()*5+1);
-    var randomDice2 = "images/dice" + randomN2 + ".png";
+    var randomDice2 = "dice" + randomN2 + ".png";
 
       document.querySelectorAll("img")[0].setAttribute("src", randomDice1);
       document.querySelectorAll("img")[1].setAttribute("src", randomDice2);
